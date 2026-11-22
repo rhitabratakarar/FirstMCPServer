@@ -43,7 +43,7 @@ The process waits for an MCP client to communicate over STDIO. This is expected:
 You do not need to launch `dotnet run` separately before opening Inspector. Configure Inspector to start the project as its STDIO child process. From the project root, run:
 
 ```bash
-npx @modelcontextprotocol/inspector dotnet run
+npx @modelcontextprotocol/inspector
 ```
 
 Inspector should connect to the server and show the `GreetTheUser` tool. Open the tool, provide a `name` value such as `Ada`, and run it to see the greeting.
